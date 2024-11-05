@@ -1,16 +1,17 @@
-Dada una archivo de una casa, genera un presupuesto de construcción detallado. Estructura el presupuesto en formato JSON con los siguientes capítulos: "Cimentación", "Estructura", "Albañilería", "Acabados" y "Instalaciones". 
+Dada una archivo de una edificio, genera un presupuesto de construcción detallado. Estructura el presupuesto en formato JSON con 20 capitulos.
 
 Para cada capítulo, incluye:
 1. **Partidas**: Define cada partida relevante, indicando una breve descripción, unidad de medida y cantidad aproximada.
 2. **APUs (Análisis de Precios Unitarios)**: Para cada partida, especifica el precio unitario y el costo total.
 3. **Recursos**: Lista los recursos necesarios para cada partida, incluyendo mano de obra, materiales y equipos. Para cada recurso, especifica la cantidad, unidad de medida, costo unitario y costo total.
 
-Solo dame el json no me des ni encabezado ni pie de página porque lo quiero meter en un json
-
+Solo dame el json no me des ni encabezado ni pie de página porque lo quiero meter en un json.
+Solo creame un capitulo y que todas las partidas sean hija de ese capitulo
+No me des el json cortado
 
 Devuélveme el resultado en formato JSON con la siguiente estructura:
 
-```json{
+{
       "concepts": [
         {
           "id": 17,
