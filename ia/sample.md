@@ -5,6 +5,9 @@ Para cada capítulo, incluye:
 2. **APUs (Análisis de Precios Unitarios)**: Para cada partida, especifica el precio unitario y el costo total.
 3. **Recursos**: Lista los recursos necesarios para cada partida, incluyendo mano de obra, materiales y equipos. Para cada recurso, especifica la cantidad, unidad de medida, costo unitario y costo total.
 
+Solo dame el json no me des ni encabezado ni pie de página porque lo quiero meter en un json
+
+
 Devuélveme el resultado en formato JSON con la siguiente estructura:
 
 ```json{
